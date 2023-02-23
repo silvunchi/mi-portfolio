@@ -1,0 +1,506 @@
+/*Sección Menu*/
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0 153px;
+}
+header.menu__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+header.menu__header h3 {
+    font-family: var(--raleway);
+    color: #f00 ;
+    margin-top: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+section.menu nav ul.menu__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 750px;
+}
+section.menu nav ul.menu__list li a {
+    color: var(--fuente-ceniza-oscuro);
+    text-decoration: none;
+}
+section.menu nav ul.menu__list li a:hover {
+    color: #ff9c00;
+    text-decoration: underline;
+}
+section.menu nav ul.menu__list li:nth-child(6) {
+    color: #fdfdfd;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/*Sección Title*/
+section.title {
+    width: 100%;
+    color: black;
+}
+section.title div.title__div {
+    background-color: red;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+section.title div.title__container h2 {
+    margin: 64px 153px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+/* Imagen de perfil */ 
+section.title img.title__profile {
+    margin-right: 153px;
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    padding-top: 30px;
+}
+section.title div.title__div div.title__container h3 {
+    font-size: 17px;
+    line-height: 23px;
+    width: 600px;
+    margin: 30px 153px;
+}
+section.title div.title__div div.title__container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: auto 153px 30px;
+}
+/*Sección About*/
+
+section.about {
+    padding: 62px 153px;
+    background-color: #EAF2FD;
+}
+
+/* Container section about */
+section.about div.about__container {
+    width: 700px;
+}
+section.about h3.about__title {
+    font-size: 32px;
+}
+section.about div.about__container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*Sección skills tamaño*/
+section.skills {
+    margin: 64px 100px;
+}
+section.skills h3.skills__title {
+    font-size: 32px;
+    text-align: center;
+} 
+section.skills div.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section.skills div.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 22px 15px 22px 0px;
+    width: 150px;
+    height: 160px;
+}
+section.skills div.skills__box ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: lightseagreen;
+    
+}
+
+/*Sección Hobbies*/
+section.hobbies {
+    margin: 64px 100px;
+}
+section.hobbies h3.hobbies__title { 
+    font-size: 32px;
+    text-align: center;
+}
+section.hobbies div.hobbies__line { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+section.hobbies div.hobbies__box { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 22px 15px 22px 0px;
+    width: 150px;
+    height: 160px;
+}
+section.hobbies div.hobbies__box ul{ 
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    padding: 82px 0;
+    background-color: #EAF2FD;
+}
+section.academic h2.academic__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+section.academic div.academic__courses {
+    display: flex;
+    justify-content: center;
+}
+section.academic div.academic__courses__box {
+    width: 26.5rem;
+    margin: 0 1rem;
+}
+section.academic div.academic__courses__box ul {
+    padding: 0;
+}
+section.academic div.academic__courses__box ul li {
+    padding: 0;
+}
+div.academic__courses__box ul.academic__courses__list li.academic__courses__item__img {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-left: 0%;
+    margin-right: 10%;
+    
+}
+div.academic__courses__box ul.academic__courses__list li img:nth-child(1) {
+    width: 190px;
+    height: 130px;
+    
+}
+div.academic__courses__box ul.academic__courses__list li.academic__courses__item__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 8px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+div.academic__courses__box ul.academic__courses__list li.academic__courses__item__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+
+/* experiencia*/
+
+section.experience {
+    padding: 64px 0;
+    background-color: #EAF2FD;
+}
+section.experience h2.experience__section__title {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+section.experience div.experience__box {
+    display: flex;
+    margin: 0 152px;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+section.experience div.experiences__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-bottom: 64px;
+}
+section.experience div.experiences__box div.experience__info h2.experience__title {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.experience div.experience__info h2.experience__title {
+    margin-top: 147px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+section.experience div.experience__info h3.experience__text {
+    padding-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+section.experience div.experience__info div.experience__description button.experiencia__boton--repo {
+    background: #FFFFFF;
+    color: #2A7AE4;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid #2A7AE4;
+}
+section.experience div.experience__info div.experience__description button.experience__boton--demo {
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+/*Contacto*/
+
+section.formcontato {
+    padding: 64px 0;
+    background-color: #EAF2FD;
+}
+section.formcontato div.formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    margin: 0 153px;
+}
+section.formcontato div.formcontato__text {
+    padding-left: 16px;
+}
+section.formcontato h2.formcontato__title {
+    font-family: var(--raleway);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    color: #464646;
+    padding-bottom: 8px;
+}
+section.formcontato h3.formcontato__subtext {
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+    text-decoration: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e.valid{
+    border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form textarea.formcontato__textarea {
+    margin-top: 32px;
+    width: 656px;
+    height: 133px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form textarea.formcontato__textarea.valid {
+    border-bottom: 2px solid #2A7AE4;
+}
+section.formcontato form.formcontato__form input.formcontato__input.valid{
+     border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form button.formcontato__boton {
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+section.formcontato form.formcontato__form button.formcontato__boton:hover {
+    background: #ff9c00;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+
+/*footeer*/
+
+section.footer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+section.footer div.footer__rodapie {
+    font-family: 'Raleway';
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+/* Estilo de Validacion de la Forma de Contacto */
+input, textarea{
+    border:2px solid #fff;
+    background:#eee;
+}
+input:focus, textarea:focus {
+    outline:none;
+}
+
+.error {
+    border-bottom: 2px solid #f00;
+}
+
+.valid{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+/*.invalid{
+  background:red;
+}*/
+
+#errors span{
+    padding-top: 10px;
+    width:82%;
+    display:block;
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media screen and (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
